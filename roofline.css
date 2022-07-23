@@ -1,7 +1,23 @@
-.fa-roofline.-division-3 {
-    background-color:unset!important;
-    color:#151516;
-    -webkit-text-fill-color:unset;
+.mls-c-ranking-header__rank,
+.d3-c-editorial-list .fm-card__content .fa-text__roofline .fa-roofline.-division-3 {background-color:unset!important;color:#151516;-webkit-text-fill-color:unset;}
+
+.d3-c-editorial-list .fm-card__content .fa-text__roofline .fa-roofline.-division-3,
+.d3-l-col__col-5 .d3-c-editorial-list .fm-card__content .fa-text__roofline .fa-roofline.-division-3 {
+  background-color:unset;
+  padding:0;
+}
+.d3-c-editorial-list .fm-card__content .fa-text__roofline .fa-roofline.-division-3 span,
+.d3-l-col__col-5 .d3-c-editorial-list .fm-card__content .fa-text__roofline .fa-roofline span {
+  color:#707576;
+  font-size:12px;
+  font-weight:900;
 }
 
-background: green;
+	@media screen and (max-width: 730px) {
+    .mls-c-alert-bar__branded-image {display:none;}
+    .mls-c-alert-bar__text {font-size:14px;margin-bottom:10px;}
+	}
+	@media screen and (min-width: 731px) and (max-width: 1120px) {
+	}
+	@media screen and (min-width: 1121px) {
+	}
